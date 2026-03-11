@@ -4,7 +4,7 @@ function Input(props){
             type ={props.type}
             placeholder={props.placeholder}
             className="border border-slate-300 outline-slate-400 px-4 py-2 rounded-md"
-            value={props.title} 
+            value={props.value} 
             onChange={props.onChange}
         />
     );
